@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'learn_screen.dart';
 import 'progress_screen.dart';
 import 'card_screen.dart';
+import 'quiz_screen.dart';
 import '../services/word_service.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -65,6 +66,17 @@ class _HomeScreenState extends State<HomeScreen> {
                         context,
                         MaterialPageRoute(
                             builder: (context) => ProgressScreen()),
+                      );
+                    },
+                  ),
+                  SizedBox(height: 20),
+                  ElevatedButton(
+                    child: Text('📝 Проверка знаний'),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => QuizScreen()),
                       );
                     },
                   ),

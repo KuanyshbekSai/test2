@@ -1,6 +1,8 @@
 # quran_words
 
-A new Flutter project.
+A Flutter app for learning 500 frequently used words from the Quran.
+The application now includes a "Проверка знаний" section to test
+your knowledge of the studied words.
 
 ## Getting Started
 
