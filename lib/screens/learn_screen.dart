@@ -36,10 +36,9 @@ class _LearnScreenState extends State<LearnScreen> {
                     word.isLearned ? Icons.check_circle : Icons.circle_outlined,
                     color: word.isLearned ? Colors.green : Colors.grey,
                   ),
-                  onTap: () {
-                    setState(() {
-                      word.isLearned = !word.isLearned;
-                    });
+                  onTap: () async {
+                    await WordService.toggleLearned(word);
+                    setState(() {});
                   },
                 );
               },
