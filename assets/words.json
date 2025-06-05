@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "arabic": "اللّه",
+    "transcription": "Allah",
+    "translation": "Бог",
+    "isLearned": false
+  },
+  {
+    "id": 2,
+    "arabic": "رَسُول",
+    "transcription": "Rasūl",
+    "translation": "Посланник",
+    "isLearned": false
+  },
+  {
+    "id": 3,
+    "arabic": "قُرْآن",
+    "transcription": "Qur'ān",
+    "translation": "Коран",
+    "isLearned": false
+  },
+  {
+    "id": 4,
+    "arabic": "يَوْم",
+    "transcription": "Yawm",
+    "translation": "День",
+    "isLearned": false
+  },
+  {
+    "id": 5,
+    "arabic": "كِتَاب",
+    "transcription": "Kitāb",
+    "translation": "Книга",
+    "isLearned": false
+  }
+]
